@@ -1,12 +1,14 @@
 import './App.css'
-import Pizza from "./Pizza.jsx";
+import Menu from "./Menu.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
-function App() {
+export default function App() {
     return (
         <>
-            <Pizza/>
+            <Header/>
+            <Menu/>
+            <Footer/>
         </>
     )
 }
-
-export default App

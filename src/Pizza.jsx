@@ -53,7 +53,7 @@ export default function Pizza() {
                             <div key={index}>
                                 <h3>{pizza.name}</h3>
                                 <p>{pizza.ingredients}</p>
-                                <strong>{pizza.price}</strong>
+                                <strong>{pizza.price}€</strong>
                                 <img src={pizza.photoName}/>
                             </div>
                         </>
