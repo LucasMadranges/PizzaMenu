@@ -58,7 +58,6 @@ export default function Pizza() {
                                         <h3>{pizza.name}</h3>
                                         <p>{pizza.ingredients}</p>
                                         <span>{pizza.price}€</span>
-                                        <p>LOL</p>
                                     </div>
                                 </div>
                             </>
