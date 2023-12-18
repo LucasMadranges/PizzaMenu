@@ -9,7 +9,7 @@ export default function Pizza() {
         },
         {
             name: "Pizza Margherita",
-            ingredients: "Tomato and mozarella",
+            ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
             price: 10,
             photoName: "src/assets/pizzas/margherita.jpg",
             soldOut: false,
@@ -46,20 +46,25 @@ export default function Pizza() {
 
     return (
         <>
-            {
-                pizzaData.map((pizza, index) => {
-                    return (
-                        <>
-                            <div key={index}>
-                                <h3>{pizza.name}</h3>
-                                <p>{pizza.ingredients}</p>
-                                <strong>{pizza.price}€</strong>
-                                <img src={pizza.photoName}/>
-                            </div>
-                        </>
-                    )
-                })
-            }
+            <div className="pizzas">
+                {
+                    pizzaData.map((pizza, index) => {
+                        return (
+                            <>
+                                <div key={index}
+                                     className="pizza">
+                                    <img src={pizza.photoName}/>
+                                    <div>
+                                        <h3>{pizza.name}</h3>
+                                        <p>{pizza.ingredients}</p>
+                                        <span>{pizza.price}€</span>
+                                    </div>
+                                </div>
+                            </>
+                        )
+                    })
+                }
+            </div>
         </>
     )
 }

@@ -20,7 +20,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer>
+            <footer className="footer">
                 <p>{time} {TimeRestaurant()}</p>
             </footer>
         </>

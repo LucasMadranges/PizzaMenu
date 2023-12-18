@@ -6,9 +6,11 @@ import Footer from "./Footer.jsx";
 export default function App() {
     return (
         <>
-            <Header/>
-            <Menu/>
-            <Footer/>
+            <div className="container">
+                <Header/>
+                <Menu/>
+                <Footer/>
+            </div>
         </>
     )
 }
