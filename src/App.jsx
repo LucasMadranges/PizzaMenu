@@ -1,4 +1,3 @@
-import './App.css'
 import Menu from "./Menu.jsx";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
