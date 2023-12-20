@@ -11,8 +11,7 @@ Currently, two official plugins are available:
 
 For launch the project :
 
-```npm install```
-
-```npm run dev```
+1. ```npm install```
+2. ```npm run dev```
 
 Enjoy!
