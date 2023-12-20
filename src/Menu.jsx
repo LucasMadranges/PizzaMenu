@@ -1,4 +1,5 @@
 import Pizza from "./Pizza.jsx";
+import funghiImg from "./assets/pizzas/funghi.jpg"
 
 export default function Menu() {
     let pizzaData = [
@@ -27,21 +28,21 @@ export default function Menu() {
             name: "Pizza Funghi",
             ingredients: "Tomato, mozarella, mushrooms, and onion",
             price: 12,
-            photoName: "src/assets/pizzas/funghi.jpg",
+            photoName: funghiImg,
             soldOut: false,
         },
         {
             name: "Pizza Salamino",
             ingredients: "Tomato, mozarella, and pepperoni",
             price: 15,
-            photoName: "pizzas/salamino.jpg",
+            photoName: "src/assets/pizzas/salamino.jpg",
             soldOut: true,
         },
         {
             name: "Pizza Prosciutto",
             ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
             price: 18,
-            photoName: "assets/pizzas/prosciutto.jpg",
+            photoName: "src/assets/pizzas/prosciutto.jpg",
             soldOut: false,
         },
     ];
