@@ -1,5 +1,10 @@
 import Pizza from "./Pizza.jsx";
+import focacciaImg from "./assets/pizzas/focaccia.jpg"
+import margheritaImg from "./assets/pizzas/margherita.jpg"
+import spinaciImg from "./assets/pizzas/spinaci.jpg"
 import funghiImg from "./assets/pizzas/funghi.jpg"
+import salaminoImg from "./assets/pizzas/salamino.jpg"
+import prosciuttoImg from "./assets/pizzas/prosciutto.jpg"
 
 export default function Menu() {
     let pizzaData = [
@@ -7,21 +12,21 @@ export default function Menu() {
             name: "Focaccia",
             ingredients: "Bread with italian olive oil and rosemary",
             price: 6,
-            photoName: "src/assets/pizzas/focaccia.jpg",
+            photoName: focacciaImg,
             soldOut: false,
         },
         {
             name: "Pizza Margherita",
             ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
             price: 10,
-            photoName: "src/assets/pizzas/margherita.jpg",
+            photoName: margheritaImg,
             soldOut: false,
         },
         {
             name: "Pizza Spinaci",
             ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
             price: 12,
-            photoName: "src/assets/pizzas/spinaci.jpg",
+            photoName: spinaciImg,
             soldOut: false,
         },
         {
@@ -35,14 +40,14 @@ export default function Menu() {
             name: "Pizza Salamino",
             ingredients: "Tomato, mozarella, and pepperoni",
             price: 15,
-            photoName: "src/assets/pizzas/salamino.jpg",
+            photoName: salaminoImg,
             soldOut: true,
         },
         {
             name: "Pizza Prosciutto",
             ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
             price: 18,
-            photoName: "src/assets/pizzas/prosciutto.jpg",
+            photoName: prosciuttoImg,
             soldOut: false,
         },
     ];
