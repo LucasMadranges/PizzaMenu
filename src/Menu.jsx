@@ -34,14 +34,14 @@ export default function Menu() {
             name: "Pizza Salamino",
             ingredients: "Tomato, mozarella, and pepperoni",
             price: 15,
-            photoName: "src/assets/pizzas/salamino.jpg",
+            photoName: "pizzas/salamino.jpg",
             soldOut: true,
         },
         {
             name: "Pizza Prosciutto",
             ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
             price: 18,
-            photoName: "src/assets/pizzas/prosciutto.jpg",
+            photoName: "assets/pizzas/prosciutto.jpg",
             soldOut: false,
         },
     ];
